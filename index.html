@@ -166,7 +166,37 @@
 		    <div class="col-md-7 col-center m-t-4">
 			<h4 class="text-center">Lunch Options</h4>
 			<p>Please see the map below for information on nearby lunch options and our social gathering following the summit.</p>
-		 
+			    <img id="FlyerENG" src="img/GCBA-IODC-Flyer-evento-03-digi-INGLES.jpg" alt="Lunch Options" style="width:100%;max-width:300px">
+
+			<!-- The Modal -->
+			<div id="ModalENG" class="modal">
+			  <span class="close">&times;</span>
+			  <img class="modal-content" id="FlyerENG">
+			  <div id="caption"></div>
+			</div>
+
+			<script>
+			// Get the modal
+			var modal = document.getElementById('ModalENG');
+
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('FlyerENG');
+			var modalImg = document.getElementById("FlyerENG");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+			    modal.style.display = "block";
+			    modalImg.src = this.src;
+			    captionText.innerHTML = this.alt;
+			}
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			    modal.style.display = "none";
+			}
+			</script>
 
 		    </div>
 		</div>
