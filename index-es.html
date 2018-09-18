@@ -51,8 +51,8 @@
             <div class="headerLinks">
                 <a class="headerLinks--link page-scroll" href="#about">Acerca de</a>
                 <a class="headerLinks--link page-scroll" href="#structure">Estructura</a>
-<!--	        <a class="headerLinks--link page-scroll" href="#location">Location</a>
--->             <a class="headerLinks--link page-scroll" href="#programme">Programa</a>
+	        <a class="headerLinks--link page-scroll" href="#location">Location</a>
+                <a class="headerLinks--link page-scroll" href="#programme">Programa</a>
                 <a class="headerLinks--link page-scroll" href="#keynotes">Keynotes</a>
                 <a class="headerLinks--link page-scroll" href="#org">Organizadores</a> 
                 <a class="headerLinks--link page-scroll" href="#contact">Contacto</a>
@@ -136,39 +136,84 @@
                     </div>
                 </div>
             </section><!-- about -->
+ 
+          <section id="location" class="m-b-4">
+                <div class="row">
+		<div class="schedule p-t-2 p-b-4">
+                    <div class="col-md-8 col-center">
+                        <h2 class="text-center">Location</h2>
+                        <hr class="separator--inverse">
+                        <p class="text-center">Please find information below on the location of the Summit, shuttle busses, and suggested lunch locations.</p>
+	       <div class="row timeSlot">
+		       <time class="text-left col-xs-12 col-md-2"><b>Transportation</b></time>
+                                <div class="text-left col-xs-12 col-md-10">
+				 <p>If you need transportation, busses will be departing at <b>8am from Hotel 725 (Av. Pres. Roque Sáenz Peña 725)</b> to CMD. Busses will also return to the hotel at the conclusion of the event, returning from CMD to Hotel 725 at 6pm.</p>
+			        </div>
+               </div>
+	      <div class="row timeSlot">
+		       <time class="text-left col-xs-12 col-md-2"><b>Lunch Options</b></time>
+                                <div class="text-left col-xs-12 col-md-10">
+				 <p>Please see the map below for information on nearby lunch options and our social gathering following the summit.</p>
+			        </div>
+               </div>
+		<div class="row">
+			<img id="FlyerESP" class="center-block" src="GCBA-IODC-Flyer-evento-03-digi-CAST.jpg" alt="Almuerzo" style="width:100%;max-width:300px">
+
+			<!-- The Modal -->
+			<div id="ModalESP" class="modal">
+			  <span class="close">&times;</span>
+			  <img class="modal-content" id="ModalTest">
+			  <div id="caption"></div>
+			</div>
+
+			<script>
+			// Get the modal
+			var modal = document.getElementById('ModalESP');
+			// Get the image and insert it inside the modal - use its "alt" text as a caption
+			var img = document.getElementById('FlyerESP');
+			var modalImg = document.getElementById("ModalTest");
+			var captionText = document.getElementById("caption");
+			img.onclick = function(){
+			    modal.style.display = "block";
+			    modalImg.src = this.src;
+			    captionText.innerHTML = this.alt;
+			}
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			    modal.style.display = "none";
+			}
+				
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+   				 if (event.target == modal) {
+       				 modal.style.display = "none";
+    			}
+			}
+			</script>
+
+		    </div>
+		</div>
+		</div>
+
+	    </section><!-- location -->	
 
             <section id="structure" class="m-b-4">
                 <div class="row">
                     <div class="col-md-7 col-center m-t-4">
-                        <h2 class="text-center">Estructura</h2>
+                        <h2 class="text-center">Structure</h2>
                         <hr class="separator">
-                        <p class="text-center">La cumbre estará estructurada como una conferencia y taller durante un día</p>
-            <h3>Por la mañana,</h3>
-            <p class="text-left">conferencistas, paneles, y discusiones en grupos pequeños se enfocarán en cómo las ciudades abiertas están o no logrando mejorar la vida de las personas.</p>
-            <h3>Por la tarde,</h3>
-            <p class="text-left">los participantes de la cumbre estarán trabajando en grupos para idear las soluciones para superar los objetivos identificados en la <acronym title="Open Cities Summit">OCS</acronym> del 2016 y en las sesiones de la mañana .</p>
-            <h3>Finalmente,</h3><p class="text-left">existirá un espacio abierto para la discusión de éxitos y retos de las ciudades abiertas, seguido de una reunión social.</p>
+                        <p class="text-center">The summit will be structured as an all-day open conference and workshop</p>
+			<h3>In the morning,</h3>
+			<p class="text-left">speakers, panels, and small group discussions will focus on how open cities are or are not improve the lives of people.</p>
+			<h3>In the afternoon,</h3>
+			<p class="text-left">participants in the summit will be working in groups to ideate solutions to overcome challenges identified at the 2016 <acronym title="Open Cities Summit">OCS</acronym> and in the morning sessions.</p>
+			<h3>Finally,</h3><p class="text-left">there will be open space for discussion on successes and challenges of open cities, followed by a social gathering.</p>
                     </div>
-            
+		    
                 </div>
-        </section><!-- structure -->
- 
-<!--            <section id="location" class="m-b-4">
-                <div class="row">
-                    <div class="col-md-7 col-center m-t-4">
-                        <h2 class="text-center">Estructura</h2>
-                        <hr class="separator">
-                        <p class="text-center">La cumbre estará estructurada como una conferencia y taller durante un día</p>
-            <h3>Por la mañana,</h3>
-            <p class="text-left">conferencistas, paneles, y discusiones en grupos pequeños se enfocarán en cómo las ciudades abiertas están o no logrando mejorar la vida de las personas.</p>
-            <h3>Por la tarde,</h3>
-            <p class="text-left">los participantes de la cumbre estarán trabajando en grupos para idear las soluciones para superar los objetivos identificados en la <acronym title="Open Cities Summit">OCS</acronym> del 2016 y en las sesiones de la mañana .</p>
-            <h3>Finalmente,</h3><p class="text-left">existirá un espacio abierto para la discusión de éxitos y retos de las ciudades abiertas, seguido de una reunión social.</p>
-                    </div>
-            
-                </div>
-        </section><!-- location -->
--->	
+	    </section><!-- structure -->
 	
    <section id="programme">
                 <div class="row">
