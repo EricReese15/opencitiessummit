@@ -765,15 +765,34 @@ h4 {
   width: 230px;
 }
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
+.mastheadLink {
   text-align: center;
-  padding: 14px 16px;
+  margin: 0 auto;
+}
+
+.mastheadLink:hover,
+.mastheadLink:active,
+.mastheadLink:focus {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.headerLinks {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.headerLinks--link {
+  margin-left: 1rem;
+  color: rgb(255,255,255);
+}
+
+.headerLinks--link:hover {
+  opacity: 0.8;
+  color: rgb(255,255,255);
   text-decoration: none;
 }
+
 
 /* The dropdown container */
 .dropdown {
@@ -826,34 +845,6 @@ h4 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.mastheadLink {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.mastheadLink:hover,
-.mastheadLink:active,
-.mastheadLink:focus {
-  text-decoration: none;
-  opacity: 0.8;
-}
-
-.headerLinks {
-  display: inline-block;
-  font-size: 1.4rem;
-}
-
-.headerLinks--link {
-  margin-left: 1rem;
-  color: rgb(255,255,255);
-}
-
-.headerLinks--link:hover {
-  opacity: 0.8;
-  color: rgb(255,255,255);
-  text-decoration: none;
 }
 
 /*
