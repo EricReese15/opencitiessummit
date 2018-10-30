@@ -801,7 +801,7 @@ h4 {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px; 
+  font-size: 1.4rem; 
   border: none;
   outline: none;
   color: white;
@@ -828,6 +828,7 @@ h4 {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  font-size: 1.4rem;
   float: none;
   color: black;
   padding: 12px 16px;
