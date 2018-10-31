@@ -798,6 +798,8 @@ h4 {
 .dropdown {
   float: none;
   overflow: hidden;
+  display: inline-block;
+
 }
 
 /* Dropdown button */
