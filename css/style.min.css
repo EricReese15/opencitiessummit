@@ -837,8 +837,8 @@ h4 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
-  display: block;
-  text-align: right;
+  display: contents;
+  text-align: left;
 }
 
 /* Show the dropdown menu on hover */
