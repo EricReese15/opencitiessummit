@@ -779,6 +779,7 @@ h4 {
 
 .headerLinks {
   display: inline-block;
+  float: left;
   font-size: 2rem;
 }
 
@@ -796,7 +797,7 @@ h4 {
 
 /* The dropdown container */
 .dropdown {
-  float: left;
+  float: none;
   overflow: visible;
   display: inline-block;
 }
@@ -810,7 +811,7 @@ h4 {
   text-align: center;
   border: none;
   outline: none;
-  color: white;
+  color: rgb(255,255,255);
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
 }
@@ -834,7 +835,7 @@ h4 {
 .dropdown-content a {
   font-size: 2rem;
   float: none;
-  color: white;
+  color: rgb(255,255,255);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
