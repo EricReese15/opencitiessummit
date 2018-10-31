@@ -779,7 +779,7 @@ h4 {
 
 .headerLinks {
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .headerLinks--link {
@@ -796,7 +796,7 @@ h4 {
 
 /* The dropdown container */
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
