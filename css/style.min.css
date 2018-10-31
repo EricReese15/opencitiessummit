@@ -815,9 +815,11 @@ h4 {
   font-family: inherit; /* Important for vertical align on mobile phones */
 }
 
-/* Add a black background color to navbar links on hover */
+/* Add opacity to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
+  opacity: 0.8;
+  color: rgb(255,255,255);
+  text-decoration: none;
 }
 
 /* Dropdown content (hidden by default) */
@@ -837,7 +839,7 @@ h4 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
-  display: contents;
+  display: block;
   text-align: left;
 }
 
