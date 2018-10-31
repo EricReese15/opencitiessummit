@@ -799,13 +799,13 @@ h4 {
   float: none;
   overflow: hidden;
   display: inline-block;
-
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
   display: inline-block;
   margin: 0;
+  padding-top: 0.5rem;
   font-size: 2rem;
   text-align: center;
   border: none;
@@ -844,10 +844,15 @@ h4 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Add opacity to dropdown links on hover */
+.dropdown-content a:hover {
   opacity: 0.8;
   color: rgb(255,255,255);
   text-decoration: none;
 }
+
 
 /*
 * Sections
