@@ -797,7 +797,7 @@ h4 {
 /* The dropdown container */
 .dropdown {
   float: none;
-  overflow: hidden;
+  overflow: visible;
   display: inline;
 }
 
@@ -838,7 +838,7 @@ h4 {
   padding-bottom: 0.5rem;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: right;
 }
 
 /* Show the dropdown menu on hover */
