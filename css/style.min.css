@@ -796,9 +796,9 @@ h4 {
 
 /* The dropdown container */
 .dropdown {
-  float: none;
+  float: left;
   overflow: visible;
-  display: inline;
+  display: inline-block;
 }
 
 /* Dropdown button */
@@ -827,7 +827,6 @@ h4 {
   display: none;
   position: absolute;
   background-color: inherit;
-  min-width: 160px;
   z-index: 1;
 }
 
