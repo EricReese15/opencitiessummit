@@ -796,6 +796,7 @@ h4 {
 
 /* The dropdown container */
 .dropdown {
+  float: left;
   overflow: hidden;
 }
 
@@ -803,10 +804,7 @@ h4 {
 .dropdown .dropbtn {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   font-size: 1.4rem; 
   border: none;
